@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<!--
+
+-->
+<html lang="en">
+<head>
+	<title>Analyst - Tanya N.</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+</head>
+<body class="is-preload">
+<!-- Wrapper-->
+<div id="wrapper">
+
+	<!-- Nav -->
+	<nav id="nav">
+		<a href="#" class="icon solid fa-home"><span>Home</span></a>
+		<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+		<a href="#contactform" class="icon solid fa-envelope"><span>Contact</span></a>
+		<a href="https://linkedin.com" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+	</nav>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Me -->
+		<article id="home" class="panel intro">
+			<header>
+				<h1>Tanya N.</h1>
+				<p>Information Technology Professional</p>
+				<p>Business Systems & Processes</p>
+				<p>IT Analysis & Implementations</p>
+			</header>
+			<a href="#work" class="jumplink pic">
+				<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+				<img src="images/me.jpg" alt="" />
+			</a>
+		</article>
+
+		<!-- My Work -->
+		<article id="work" class="panel">
+			<header>
+				<h2>My Work</h2>
+			</header>
+			<p>
+				Quick look at a collection of work, project deliverables and sites authored by me.
+				Click an image to jump to a site or document, context-click (right-click) and open a static image.
+			</p>
+			<section>
+				<div class="row">
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="https://manning-family-reunion.square.site/" class="image fit"><img src="images/pic01.PNG" alt="Family Event Site"></a>
+						<p>Client site w/ shopping cart
+							Platform: Square</p>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="#" class="image fit"><img src="images/pic02.jpg" alt="MySql"></a>
+						<p>MySql instance w/db create</p>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="documents/IT RFP Analysis.pdf" class="image fit"><img src="images/pic03.jpg" alt="RFP Analysis Sample"></a>
+						<p>Sample RFP Analysis -
+							IT Project</p>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="documents/IT_Operations_Plan.pdf" class="image fit"><img src="images/pic04.jpg" alt="IT Operations Plan Sample"></a>
+						<p>Sample IT Operations Plan -
+							IT Project</p>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="https://felicetyconsult.atlassian.net/jira" class="image fit"><img src="images/pic05.PNG" alt="Felicety Consult @Jira"></a>
+						<p>Project Planning
+							Platform: Jira</p>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="https://trailblazer.me/id/analysttnash" class="image fit"><img src="images/pic06.jpg" alt="Salesforce Trailhead"></a>
+						<p>Salesforce Badges
+							Platform: Salesforce</p>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="documents/Tech Fairy MSP_WBS.pdf" class="image fit"><img src="images/pic07.jpg" alt="WBS Sample"></a>
+						<p>Sample WBS -
+							IT Project</p>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="documents/Tech-Fairy MSP Team Office .pdf" class="image fit"><img src="images/pic08.jpg" alt="Project Schedule Sample"></a>
+						<p>Sample Project+ Schedule -
+							IT Project</p>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="#" class="image fit"><img src="images/pic09.jpeg" alt="Project Development Planning"></a>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="#" class="image fit"><img src="images/pic10.jpeg" alt="Rack Server Config"></a>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+					</div>
+				</div>
+			</section>
+		</article>
+
+		<!-- Contact Me -->
+		<article id="contactform" class="panel">
+			<header>
+				<h2>Contact Me</h2>
+			</header>
+			<form action="contact-form-handler.php" method="POST">
+				<div>
+					<div class="row">
+						<div class="col-6 col-12-medium">
+							<label>
+								<input type="text" name="name" placeholder="Name" />
+							</label>
+						</div>
+						<div class="col-6 col-12-medium">
+							<label>
+								<input type="text" name="email" placeholder="Email" />
+							</label>
+						</div>
+						<div class="col-12">
+							<label>
+								<input type="text" name="subject" placeholder="Subject" />
+							</label>
+						</div>
+						<div class="col-12">
+							<label>
+								<textarea name="message" placeholder="Message" rows="6"></textarea>
+							</label>
+						</div>
+						<div class="col-12">
+							<input type="submit" value="Send Message" />
+						</div>
+					</div>
+				</div>
+			</form>
+			<script>
+				var frmvalidator  = new Validator("contactform");
+				frmvalidator.addValidation("name","req","Name is required");
+				frmvalidator.addValidation("email","req","Email is required");
+				frmvalidator.addValidation("email","email","Please enter a valid email address");
+			</script>
+		</article>
+
+	</div>
+
+	<!-- Footer -->
+	<div id="footer">
+		<ul class="copyright">
+			<li>&copy;2023 Tanya Nash.</li>
+		</ul>
+	</div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/gen_validatorv31.js"></script>
+
+</body>
+</html>
